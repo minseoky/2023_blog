@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    height: 50px;
+    padding: 0 20px;
+}
+
+.navbarNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navItem {
+    margin-right: 20px;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.active {
+    color: blue;
+}
